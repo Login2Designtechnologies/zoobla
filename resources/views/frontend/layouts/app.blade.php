@@ -1,7 +1,3 @@
-
-<h1>TEXT</h1>
-
-
 <!DOCTYPE html>
 @if(get_session_language()->rtl == 1)
 <html dir="rtl" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
