@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/login2designin/public_html/zoobla-git
+    - /bin/cp * $DEPLOYPATH
